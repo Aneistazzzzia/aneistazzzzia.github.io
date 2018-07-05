@@ -19,6 +19,9 @@ header{
 	background: #FFFFFF;
 	padding: 22px 0;
 }
+.main-menu a{
+	color: black;
+}
 .header-container{
 	width: 90%;
 	margin: 5 auto;
@@ -28,13 +31,13 @@ header{
 }
 .header-conteiner a{
 	color: #000;
-	font-size: 16px;
+	font-size: 168px;
 	margin-right: 63px;
 	height: 150px;
 	padding: 27px 6px;
 }
 .header-conreiner a:hover{
-	background: #A52A2A;
+	background: #000000;
 }
 #menu-checkbox{
 	display: none;
@@ -42,9 +45,29 @@ header{
 
 ul{
 	display: flex;
-
 }
 
+ul li{
+	display: block;
+	transition: all 0.3s ease;;
+}
+ul li{
+	position: relative;
+	border-right: 1px solid #c7c8ca;
+}
+
+ul li:first-child{
+	border-left: 1px solid #b2b3b5;
+}
+ul li:last-child{ 
+	border-right: 1px solid #babbbb;
+}
+li a:hover{
+	background: #454547;
+	color: #ffffff;
+	box-shadow: 2px 8px 15px -5px black;
+	transition: all 0.3s ease;
+}
 nav{
 
 }
@@ -128,7 +151,7 @@ nav{
 }
 .wrapper-scroll-btn > span{
     position: relative;
-    max-width: 1500px;
+    max-width: 1920px;
     margin: 0 auto;
     display: block;
     color: ##FFFFFF;
