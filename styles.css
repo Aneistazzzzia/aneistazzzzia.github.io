@@ -111,7 +111,7 @@ nav{
 }
 .bg2{
 	width: 100%;
-	height: 400px;
+	height: 500px;
     background: #DCDCDC;  
     text-align: center;
 }
@@ -242,8 +242,8 @@ nav{
 	text-shadow: 0 0 10px #666;
 }
 .text-port19{
-	font-size: 23px;
-	line-height: 2;
+	font-size: 20px;
+	line-height: 2.5;
 	
 }
 .flexible-image{
