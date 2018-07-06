@@ -206,7 +206,8 @@ nav{
 }
 .social {
 	font-size: 15px;
-	margin-left: 720px;
+	
+	text-align: center;
 }
 .port {
 	margin-top: 30px;
