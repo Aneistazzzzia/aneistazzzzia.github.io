@@ -242,7 +242,9 @@ nav{
 	text-shadow: 0 0 10px #666;
 }
 .text-port19{
-	line-height: 3;
+	font-size: 23px;
+	line-height: 2;
+	
 }
 .flexible-image{
 	max-width: 100%;
