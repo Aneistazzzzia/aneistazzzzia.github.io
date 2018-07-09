@@ -27,3 +27,18 @@ $('.scrollup-btn').click(function(){
        $('body,html').animate({scrollTop:$(document).height()},800);
     }
 });
+	$("#sandwich").click(function(){
+		$("nav ul").toggle('fast');
+	})	
+	$("footer").text(String.fromCharCode(0169)+ (new Date()).getFullYear());
+	if(window.matchMedia("(max-width: 768px)").matches){
+	$(window).on("orientationchange",function(){
+  		if(window.orientation != 0)
+  		{
+    		$("nav ul").css({'display':'inline-block'});
+  		}
+  		else{
+  			$("nav ul").css({'display':'none'});	
+  		}
+	})
+	}
